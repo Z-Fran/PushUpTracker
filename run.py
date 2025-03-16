@@ -266,7 +266,7 @@ if __name__ == "__main__":
         bodies = get_bodies(results, padded_w, padded_h, img_w, img_h)
         frame=draw_pose(frame, bodies)
 
-        cv2.imshow("Movenet", frame)
+        cv2.imshow("Push Up Tracker", frame)
         output.write(frame)
 
         key = cv2.waitKey(1) 
